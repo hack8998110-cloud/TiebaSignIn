@@ -3,7 +3,7 @@ name: Daily Tieba Sign-In
 on:
   workflow_dispatch:
   schedule:
-    # 每日北京时间 06:30；此注释更新用于让 GitHub 重新登记计划任务。
+    # 每日北京时间 06:30；2026-10-19（北京时间）更新此注释，用于让 GitHub 重新登记计划任务。
     - cron: '30 22 * * *'  # UTC 22:30 = 北京时间次日 06:30
 
 jobs:
